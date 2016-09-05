@@ -172,11 +172,11 @@ def read_train_test():
  
     #pickle save
     print("Save data")
-    trf = open('/home/wangzhe/src/sparse_data/train_sp4.data', 'wb')
+    trf = open('./sparse_data/train_sp4.data', 'wb')
     pickle.dump(train_sparse, trf)
     trf.close()
  
-    ttf = open('/home/wangzhe/src/sparse_data/test_sp4.data', 'wb')
+    ttf = open('./sparse_data/test_sp4.data', 'wb')
     pickle.dump(test_sparse, ttf)
     ttf.close()
     
